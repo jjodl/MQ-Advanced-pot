@@ -1,0 +1,197 @@
+{
+    "channel":
+    [
+        {
+            "name": "UNICLUSTER.SVRCONN",
+            "clientConnection":
+            {
+                "connection":
+                [
+                    {
+                        "host": "10.73.XX.XXX",
+                        "port": 1601
+                    },
+		            {
+                        "host": "10.73.YY.YYY",
+                        "port": 1601
+                    },
+		            {
+                        "host": "10.73.ZZ.ZZZ",
+                        "port": 1601
+                    }
+                ],
+                "queueManager": "ANY_QM"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": ""
+            },
+	        "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "UNICLUSTER.SVRCONN",
+            "clientConnection":
+            {
+                "connection":
+                [
+                    {
+                        "host": "10.73.XX.XXX",
+                        "port": 1602
+                    },
+		    {
+                        "host": "10.73.YY.YYY",
+                        "port": 1602
+                    },
+		    {
+                        "host": "10.73.ZZ.ZZZ",
+                        "port": 1602
+                    }
+                ],
+                "queueManager": "ANY_QM"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": ""
+            },
+	        "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "UNICLUSTER.SVRCONN",
+            "clientConnection":
+            {
+                "connection":
+                [
+                    {
+                        "host": "10.73.XX.XXX",
+                        "port": 1603
+                    },
+		            {
+                        "host": "10.73.YY.YYY",
+                        "port": 1603
+                    },
+		            {
+                        "host": "10.73.ZZ.ZZZ",
+                        "port": 1603
+                    }
+               ],
+                "queueManager": "ANY_QM"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": ""
+            },
+	        "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "UNICLUSTER.SVRCONN",
+            "clientConnection":
+            {
+                "connection":
+                [
+                    {
+                        "host": "10.73.XX.XXX",
+                        "port": 1601
+                    },
+		            {
+                        "host": "10.73.YY.YYY",
+                        "port": 1601
+                    },
+		            {
+                        "host": "10.73.ZZ.ZZZ",
+                        "port": 1601
+                    }
+                ],
+                "queueManager": "UNIRDQM1"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": ""
+            },
+	        "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "UNICLUSTER.SVRCONN",
+            "clientConnection":
+            {
+                "connection":
+                [
+                        {
+                            "host": "10.73.XX.XXX",
+                            "port": 1602
+                        },
+                        {
+                            "host": "10.73.YY.YYY",
+                            "port": 1602
+                        },
+                        {
+                            "host": "10.73.ZZ.ZZZ",
+                            "port": 1602
+                        }
+                ],
+                "queueManager": "UNIRDQM2"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": ""
+            },
+	        "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "type": "clientConnection"
+        },
+        {
+            "name": "UNICLUSTER.SVRCONN",
+            "clientConnection":
+            {
+                "connection":
+                [
+                    {
+                        "host": "10.73.XX.XXX",
+                        "port": 1603
+                    },
+		            {
+                        "host": "10.73.YY.YYY",
+                        "port": 1603
+                    },
+		            {
+                        "host": "10.73.ZZ.ZZZ",
+                        "port": 1603
+                    }
+               ],
+                "queueManager": "UNIRDQM3"
+            },
+            "transmissionSecurity":
+            {
+              "cipherSpecification": ""
+            },
+	        "connectionManagement":
+            {
+              "clientWeight": 1,
+              "affinity": "none"
+            },
+            "type": "clientConnection"
+        }
+   ]
+}
