@@ -18,7 +18,7 @@ An application developer has a choice of programming interfaces, and programming
 
 |  Topic                                | Description                                                                
 |---------------------------------------|-----------------------------------------------------------------------------|
-| [MQ Standalone Console](standalone-console)         | This section you will tap into the value of existing data flowing over MQ with zero impact to the existing applications or their messages, and without a need for re-architecture your message flows.
+| MQ Standalone Console        | **Being worked on** This section you will tap into the value of existing data flowing over MQ with zero impact to the existing applications or their messages, and without a need for re-architecture your message flows.
 |---------------------------------------|-----------------------------------------------------------------------------|
 | [MQ NativeHA (VM)](nativeha-rhel)         | This section you will tap into the value of existing data flowing over MQ with zero impact to the existing applications or their messages, and without a need for re-architecture your message flows.
 |---------------------------------------|-----------------------------------------------------------------------------|
